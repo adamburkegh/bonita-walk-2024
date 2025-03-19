@@ -191,7 +191,7 @@
       <connections xmi:type="process:SequenceFlow" xmi:id="_rtPTYP_GEe-jOIIjENsFNw" name="problemFound" target="_vqpkIP_GEe-jOIIjENsFNw" source="_uy9HIP_GEe-jOIIjENsFNw">
         <decisionTable xmi:type="decision:DecisionTable" xmi:id="_rtPTYf_GEe-jOIIjENsFNw"/>
         <condition xmi:type="expression:Expression" xmi:id="_rtPTYv_GEe-jOIIjENsFNw" name="newScript()" content="return walkDetails.isProblem()" interpreter="GROOVY" type="TYPE_READ_ONLY_SCRIPT" returnType="java.lang.Boolean" returnTypeFixed="true">
-          <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_xF6O8P_LEe-jOIIjENsFNw" name="walkDetails" dataType="_IfXmZPAJEe-z_-vYQIKwQw" className="com.company.model.WalkDetails"/>
+          <referencedElements xmi:type="process:BusinessObjectData" xmi:id="_oprO8ALrEfClK8GDUHdA8Q" name="walkDetails" dataType="_IfXmZPAJEe-z_-vYQIKwQw" className="com.company.model.WalkDetails"/>
         </condition>
       </connections>
       <connections xmi:type="process:SequenceFlow" xmi:id="_tU5Nsf_GEe-jOIIjENsFNw" target="_tU3_kP_GEe-jOIIjENsFNw" source="_vqpkIP_GEe-jOIIjENsFNw">
